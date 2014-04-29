@@ -20,3 +20,4 @@
 
 # Ignore sublime stuff
 *.sublime-project
+*.sublime-workspace
