@@ -15,5 +15,8 @@
 /log/*.log
 /tmp
 
+# Ignore rspec
+.rspec
+
 # Ignore sublime stuff
 *.sublime-project
