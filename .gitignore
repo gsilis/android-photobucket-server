@@ -23,4 +23,4 @@
 *.sublime-workspace
 
 # Configuration files that have sensitive info
-/app/config/initializers/s3.rb
+/config/initializers/s3.rb
