@@ -21,3 +21,6 @@
 # Ignore sublime stuff
 *.sublime-project
 *.sublime-workspace
+
+# Configuration files that have sensitive info
+/app/config/initializers/s3.rb
