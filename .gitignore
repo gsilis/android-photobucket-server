@@ -24,6 +24,7 @@
 
 # Configuration files that have sensitive info
 /config/initializers/s3.rb
+/config/database.yml
 
 # Locally-uploaded files
 /public/uploads/*
