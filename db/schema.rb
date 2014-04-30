@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140429162128) do
+ActiveRecord::Schema.define(version: 20140430141936) do
 
   create_table "api_keys", force: true do |t|
     t.datetime "created_at"
@@ -20,5 +20,13 @@ ActiveRecord::Schema.define(version: 20140429162128) do
   end
 
   add_index "api_keys", ["token"], name: "index_api_keys_on_token"
+
+  create_table "photos", force: true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.string   "media"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
