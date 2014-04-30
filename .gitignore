@@ -24,3 +24,6 @@
 
 # Configuration files that have sensitive info
 /config/initializers/s3.rb
+
+# Locally-uploaded files
+/public/uploads/*
