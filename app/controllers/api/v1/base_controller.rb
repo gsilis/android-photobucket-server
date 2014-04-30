@@ -1,4 +1,4 @@
-class Api::V1::BaseController < ApplicationController
+class Api::V1::BaseController < ActionController::Base
   before_action :restrict_access_via_api_token
 
   private
