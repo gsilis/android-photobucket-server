@@ -13,6 +13,7 @@ Sending a new photo
     "media": {
       "filename": "photo_sample.jpg",
       "original_filename": "photo_sample.jpg",
+      "content_type": "image/jpeg",
       "data": "<BASE64-encoded-image-data>"
     }
   }
