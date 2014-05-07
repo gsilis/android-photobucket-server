@@ -67,6 +67,7 @@ class Api::V1::PhotosController < Api::V1::BaseController
           filename:           photo_params['filename'],
           original_filename:  photo_params['original_filename']
         )
+        uploaded_file.content_type = photo_params['content_type']
         params[:photo][:media] = uploaded_file
 
         tempfile.delete
